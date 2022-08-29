@@ -1,4 +1,4 @@
-const admin = [ 'ada', 'vim', 'tim', 'greta'];
+const admin = [ 'ana', 'vim', 'tim', 'greta'];
 
 module.exports = (req,res,next) => {
     if(admin.includes(req.query.user.toLowerCase())){
